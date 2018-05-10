@@ -21,36 +21,32 @@
        background-size:cover;
    }
    /* Pricing Section */
-   .pricing{
-        font-family: 'roboto', sans-serif;
-        font-size: 15px;
-
-   }
    .pricing_content{
        width:100%;
        margin:0 auto;
    }
-   /*.pricing .pricing_head .icon_area{
+.pricing_head .icon_area{
        border-top-left-radius: 10px;
        border-top-right-radius: 20px;
        border-bottom-right-radius: 30px;
        border-bottom-left-radius: 35px;
-   }*/
-   .pricing .pricing_head .icon_area.p_icon_one i{
+   }
+   
+.pricing_head .p_icon_one i{
        border-top:5px solid #ffcc33;
        border-left:5px solid #fff;
        border-right:5px solid #fff;
        color:#ffcc33;
    
    }
-   .pricing .pricing_head .icon_area.p_icon_two i{
+.pricing_head .p_icon_two i{
        border-top:5px solid #7f8c8d;
        border-right:5px solid #7f8c8d;
        border-left:5px solid #fff;
        border-bottom:5px solid #fff;
        color:#7f8c8d;
    }
-   .pricing .pricing_head .icon_area.p_icon_three i{
+.pricing_head .p_icon_three i{
        border-bottom:5px solid #f85f40;
        border-right:5px solid #f85f40;
        border-top:5px solid #f85f40;
@@ -58,24 +54,22 @@
        color:#f85f40;
    }
    
-   .pricing .pricing_head .icon_area i{
-       color:#ff0000;
+    .pricing_head .icon_area i{
        font-size:1.0625rem;
        padding:20px;
        border-radius: 50%;
        display: inline-block;
-       border-top:5px solid #ff0000;	
    }
-   .single_pricing.pricing_color_one{
+   .single_pricing .pricing_color_one{
        border-top:5px solid #ffcc33;
    }
-   .single_pricing.pricing_color_two{
+   .single_pricing .pricing_color_two{
        border-top:5px solid #7f8c8d;
    }
-   .single_pricing.pricing_color_three{
+   .single_pricing .pricing_color_three{
        border-top:5px solid #f85f40;
    }
-   .single_pricing.pricing_color_four{
+   .single_pricing .pricing_color_four{
        border-top:5px solid #1abc9c;
    }
    
