@@ -85,8 +85,8 @@
        text-transform:uppercase;
        color:#222222;
        font-size:14px;
-       font-family:'titillium_webbold';
-   }
+       font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       }
    .single_pricing .single_pricing_figure{
        padding: 0px 15px;
    }
@@ -125,23 +125,22 @@
    .single_pricing footer.pricing_footer h3{
        font-size:1.8975rem;
        margin-bottom:0px;
-       font-family: 'latobold';
-   }
+       font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       }
    .single_pricing footer.pricing_footer h3 span.dolor{
        font-size:1.3rem;
-       font-family: 'latoheavy';
-   }
+       font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       }
    .single_pricing footer.pricing_footer h3 span.month{
        font-size:0.8125rem;
-       font-family: 'latoregular';
-       
+       font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;       
    }
    .single_pricing footer.pricing_footer a{
        font-size:0.9875rem;
        color:#282828;
        margin-top:20px;
-       font-family: 'latobold';
-   }
+       font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       }
    .single_pricing footer.pricing_footer .separetor_one{
        border:3px solid #f9d423;
    }
