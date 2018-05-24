@@ -14,7 +14,7 @@ a {
   color: #fed136;
 }
 a:hover {
-  color: #fec503;
+  color: #ffffff;
 }
 .text-primary {
   color: #fed136 !important;
@@ -44,9 +44,10 @@ section h3.section-subheading {
   text-transform: none;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 .btn {
@@ -58,14 +59,14 @@ section h3.section-subheading {
   padding: 20px 40px;
 }
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #feae36;
+  border-color: #feae36;
 }
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #feae36 !important;
+  border-color: #feae36 !important;
   color: #fff;
 }
 .btn-primary:active,
@@ -73,11 +74,11 @@ section h3.section-subheading {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 ::-moz-selection {
-  background: #fed136;
+  background: #feae36;
   text-shadow: none;
 }
 ::selection {
-  background: #fed136;
+  background: #feae36;
   text-shadow: none;
 }
 img::selection {
@@ -96,18 +97,26 @@ img::-moz-selection {
   text-transform: uppercase;
   color: #fff;
   border: 0;
-  background-color: #fed136;
+  background-color: #feae36;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#mainNav .navbar-brand {
-  color: #fed136;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+#mainNav .navbar-brand-orange {
+  color: #feae36;
+  font-family: 'Comfortaa';
+  font-style:normal;
 }
+
+#mainNav .navbar-brand-gray {
+  color: #d4dce6;
+  font-family: 'Comfortaa';
+  font-style: normal;
+}
+
 #mainNav .navbar-brand.active,
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #feae36;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
@@ -119,7 +128,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #feae36;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -199,12 +208,31 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
+
+  /* Register */
+  .register{
+    width:100%;
+    overflow: hidden;;
+  }
+  .register .single_login{
+    background: #feae36;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+  }
+  .single_register{
+    background: #282b2e;
+    border-bottom-left-radius: 5px;
+  }
+  .single_register a{
+    color: #fff;
+    font-size: 1.375rem;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;    
+    text-transform: uppercase;
+    padding: 25px 0px;
+    display: inline-block;
+  }
 }
 
-/* .service-heading {
-  margin: 15px 0;
-  text-transform: none;
-} */
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -224,7 +252,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(254, 174, 54, 0.9);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
@@ -413,7 +441,7 @@ header.masthead .intro-text .intro-heading {
   color: #fff;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #feae36;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -562,7 +590,7 @@ section#contact .form-group textarea.form-control {
   height: 248px;
 }
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #feae36;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -622,5 +650,27 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #feae36;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /* Register */
+    .register{
+      width:100%;
+      overflow: hidden;
+    }
+    .register .single_login{
+      background: #feae36;
+    }
+    .single_register{
+      background: #282b2e;
+    }
+    .single_register a{
+      color: #fff;
+      font-size: 1.375rem;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;    
+      text-transform: uppercase;
+      padding: 20px 0px;
+      display: inline-block;
+    }
 }

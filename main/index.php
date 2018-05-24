@@ -19,6 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
@@ -30,35 +31,10 @@
 
   <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!-- Navigator -->
+    <?php
+      include_once 'templates/nav-bar.php';
+    ?>
 
     <!-- Header -->
     <header class="masthead">
@@ -66,10 +42,28 @@
         <div class="intro-text">
           <div class="intro-lead-in">Welcome To Our Studio!</div>
           <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
         </div>
       </div>
     </header>
+
+  <!-- Login & Sign up -->
+    <div id="register" class="register">
+        <div class="container-fullwidth">
+            <div class="row text-center">
+                <div class="col-sm-6 col-xs-6 no-padding">
+                    <div class="single_register single_login">
+                        <a href="templates/login-form.php">Giris Yap</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-6 no-padding">
+                    <div class="single_register">
+                    <a href="#">Kaydol</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Services -->
     <section id="services">
