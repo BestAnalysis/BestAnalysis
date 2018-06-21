@@ -28,6 +28,10 @@
 
   </head>
 
+  <?php
+    include_once "nav-bar.php";
+  ?>
+
   <body id="page-top">
     <!-- Header -->
     <header class="masthead">
@@ -45,12 +49,12 @@
             <div class="row text-center">
                 <div class="col-sm-6 col-xs-6 no-padding">
                     <div class="single_register single_login">
-                        <a href="templates/login-form.php">Giris Yap</a>
+                        <a href="../app/views/templates/login-form.php">Giris Yap</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-6 no-padding">
                     <div class="single_register">
-                    <a href="#">Kaydol</a>
+                    <a href="../app/views/templates/sign-up.php">Kaydol</a>
                     </div>
                 </div>
             </div>
@@ -504,44 +508,9 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php
+      include_once "footer.php";
+    ?>
 
     <!-- Portfolio Modals -->
 

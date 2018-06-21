@@ -5,18 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Page Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1,">
-
-        <link href="../app/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom fonts for this template -->
-        <link href="../app/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-        <link href="../app/views/css/agency.min.css" rel="stylesheet">
-        <link href="../app/views/css/responsive.css" rel="stylesheet">
-
-        <script src="../app/views/js/agency.js"></script>
-
     </head>
     <body>
     <!-- Navigation -->
