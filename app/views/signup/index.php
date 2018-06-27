@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap core CSS -->
-    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../app/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="../../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../app/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -26,7 +26,7 @@
 <body>
     <!-- Navigator -->
     <?php
-        include_once '../nav-bar.php';
+        include_once '../app/views/shared/nav-bar.php';
     ?>
     <section id="login">
         <div class="container">
@@ -65,23 +65,23 @@
       </div>
     </section>
 
-    <section>
+
         <?php
-            include_once "../footer.php";
+            include_once "../app/views/shared/footer.php";
         ?>
-    </section>
+
 </body>
     <!-- Bootstrap core JavaScript -->
-    <script src="../app/vendor/jquery/jquery.min.js"></script>
-    <script src="../app/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../app/vendor/jquery/jquery.min.js"></script>
+    <script src="../../app/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="../app/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../../app/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Contact form JavaScript -->
-    <script src="../app/views/js/jqBootstrapValidation.js"></script>
-    <script src="../app/views/js/contact_me.js"></script>
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="../app/views/js/agency.min.js"></script>
+    <script src="../js/agency.min.js"></script>
 </html>

@@ -22,14 +22,14 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../app/views/css/agency.min.css" rel="stylesheet">
-    <link href="../app/views/css/pricing.css" rel="stylesheet">
-    <link href="../app/views/css/responsive.css" rel="stylesheet">
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/pricing.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
   </head>
 
   <?php
-    include_once "nav-bar.php";
+    include_once "../app/views/shared/nav-bar.php";
   ?>
 
   <body id="page-top">
@@ -49,12 +49,12 @@
             <div class="row text-center">
                 <div class="col-sm-6 col-xs-6 no-padding">
                     <div class="single_register single_login">
-                        <a href="../app/views/templates/login-form.php">Giris Yap</a>
+                        <a href="http://localhost/public/login/index">Giris Yap</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-6 no-padding">
                     <div class="single_register">
-                    <a href="../app/views/templates/sign-up.php">Kaydol</a>
+                    <a href="http://localhost/public/signup/index">Kaydol</a>
                     </div>
                 </div>
             </div>
@@ -276,7 +276,7 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="../app/views/img/about/1.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -290,7 +290,7 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="../app/views/img/about/2.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -304,7 +304,7 @@
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="../app/views/img/about/3.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -318,7 +318,7 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="../app/views/img/about/4.jpg" alt="">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -355,7 +355,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="../app/views/img/team/1.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
               <h4>Kay Garland</h4>
               <p class="text-muted">Lead Designer</p>
               <ul class="list-inline social-buttons">
@@ -379,7 +379,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="../app/views/img/team/2.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
               <h4>Larry Parker</h4>
               <p class="text-muted">Lead Marketer</p>
               <ul class="list-inline social-buttons">
@@ -403,7 +403,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="../app/views/img/team/3.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
               <h4>Diana Pertersen</h4>
               <p class="text-muted">Lead Developer</p>
               <ul class="list-inline social-buttons">
@@ -440,22 +440,22 @@
         <div class="row">
           <div class="col-md-3 col-sm-6">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="../app/views/img/logos/envato.jpg" alt="">
+              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="../app/views/img/logos/designmodo.jpg" alt="">
+              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="../app/views/img/logos/themeforest.jpg" alt="">
+              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="../app/views/img/logos/creative-market.jpg" alt="">
+              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
             </a>
           </div>
         </div>
@@ -508,10 +508,9 @@
     </section>
 
     <!-- Footer -->
-    <?php
-      include_once "footer.php";
-    ?>
-
+        <?php
+          include_once "../app/views/shared/footer.php";
+        ?>
     <!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
@@ -726,11 +725,11 @@
     <script src="../app/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Contact form JavaScript -->
-    <script src="../app/views/js/jqBootstrapValidation.js"></script>
-    <script src="../app/views/js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="../app/views/js/agency.min.js"></script>
+    <script src="js/agency.min.js"></script>
 
   </body>
 

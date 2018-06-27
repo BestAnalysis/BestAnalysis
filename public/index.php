@@ -1,5 +1,5 @@
 <?php
 
-include_once "../app/views/index.php";
+require_once "../app/init.php";
 
-
+$app = new App();
