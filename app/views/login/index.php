@@ -32,21 +32,21 @@
         <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <form id="loginForm" name="loginForm" action="http://localhost/public/login/login" method="POST">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                    <input name="email" class="form-control" id="email" type="text" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="password" type="pass" placeholder="Your Password *" required="required" data-validation-required-message="Please enter your password.">
+                    <input name="password" class="form-control" id="password" type="password" placeholder="Your Password *" required="required" data-validation-required-message="Please enter your password.">
                     <p class="help-block text-danger"></p>
                   </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Login</button>
+                  <button id="signinButton" class="btn btn-primary btn-xl text-uppercase" type="submit" name="login">Login</button>
                 </div>
               </div>
             </form>
